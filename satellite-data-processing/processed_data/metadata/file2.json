@@ -1,0 +1,45 @@
+{
+    "projection": {
+        "EPSG": [
+            "9001"
+        ],
+        "Greenwich": [
+            "0"
+        ],
+        "Equirectangular": [],
+        "standard_parallel_1": [
+            "0"
+        ],
+        "central_meridian": [
+            "0"
+        ],
+        "false_easting": [
+            "0"
+        ],
+        "false_northing": [
+            "0"
+        ],
+        "Easting": [
+            "EAST"
+        ],
+        "Northing": [
+            "NORTH"
+        ]
+    },
+    "shape": "(1, 8500, 8906)",
+    "drivers": "Drivers: (GTiff, GeoTIFF)",
+    "metadata": [
+        "TIFFTAG_DATETIME: 2025:01:22 08:00:00",
+        "AREA_OR_POINT: Area"
+    ],
+    "geotransform": {
+        "top_left_x": 6900000.0,
+        "w_e_pixel_resolution": 2000.033411764706,
+        "rotation_1": 0.0,
+        "top_left_y": 8905559.26,
+        "rotation_2": 0.0,
+        "n_s_pixel_resolution": -2000.0001781944754
+    },
+    "value_min": "0.0",
+    "value_max": "242.0"
+}

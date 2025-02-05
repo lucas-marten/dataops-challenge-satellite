@@ -1,0 +1,126 @@
+Driver: GTiff/GeoTIFF
+Files: satellite-data-processing/data/file4
+Size is 2560, 2088
+Coordinate System is:
+PROJCRS["unnamed",
+    BASEGEOGCRS["Bessel 1841",
+        DATUM["unknown",
+            ELLIPSOID["bessel",6377397.155,299.1528128,
+                LENGTHUNIT["metre",1,
+                    ID["EPSG",9001]]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]],
+    CONVERSION["Polar Stereographic (variant B)",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",60,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",14,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["(E)",south,
+            MERIDIAN[90,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",south,
+            MERIDIAN[180,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[2],
+            LENGTHUNIT["metre",1]]]
+Data axis to CRS axis mapping: 1,2
+Origin = (-1668854.126638294896111,-2062234.842589272651821)
+Pixel Size = (1151.562500000000000,-1000.000000000000000)
+Metadata:
+  TIFFTAG_DATETIME=2025:01:20 12:19:01
+  AREA_OR_POINT=Area
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (-1668854.127,-2062234.843) ( 24d58'52.89"W, 64d55'58.99"N)
+Lower Left  (-1668854.127,-4150234.843) (  7d54'20.13"W, 48d51'53.71"N)
+Upper Right ( 1279145.873,-2062234.843) ( 45d48'36.56"E, 67d 0'46.49"N)
+Lower Right ( 1279145.873,-4150234.843) ( 31d 7'47.45"E, 49d58'11.91"N)
+Center      ( -194854.127,-3106234.843) ( 10d24'37.94"E, 60d45'31.13"N)
+Band 1 Block=2560x1 Type=Byte, ColorInterp=Red
+  Mask Flags: PER_DATASET ALPHA 
+Band 2 Block=2560x1 Type=Byte, ColorInterp=Green
+  Mask Flags: PER_DATASET ALPHA 
+Band 3 Block=2560x1 Type=Byte, ColorInterp=Blue
+  Mask Flags: PER_DATASET ALPHA 
+Band 4 Block=2560x1 Type=Byte, ColorInterp=Alpha
+Driver: GTiff/GeoTIFF
+Files: satellite-data-processing/data/file4
+Size is 2560, 2088
+Coordinate System is:
+PROJCRS["unnamed",
+    BASEGEOGCRS["Bessel 1841",
+        DATUM["unknown",
+            ELLIPSOID["bessel",6377397.155,299.1528128,
+                LENGTHUNIT["metre",1,
+                    ID["EPSG",9001]]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]],
+    CONVERSION["Polar Stereographic (variant B)",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",60,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",14,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["(E)",south,
+            MERIDIAN[90,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",south,
+            MERIDIAN[180,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[2],
+            LENGTHUNIT["metre",1]]]
+Data axis to CRS axis mapping: 1,2
+Origin = (-1668854.126638294896111,-2062234.842589272651821)
+Pixel Size = (1151.562500000000000,-1000.000000000000000)
+Metadata:
+  TIFFTAG_DATETIME=2025:01:20 12:19:01
+  AREA_OR_POINT=Area
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (-1668854.127,-2062234.843) ( 24d58'52.89"W, 64d55'58.99"N)
+Lower Left  (-1668854.127,-4150234.843) (  7d54'20.13"W, 48d51'53.71"N)
+Upper Right ( 1279145.873,-2062234.843) ( 45d48'36.56"E, 67d 0'46.49"N)
+Lower Right ( 1279145.873,-4150234.843) ( 31d 7'47.45"E, 49d58'11.91"N)
+Center      ( -194854.127,-3106234.843) ( 10d24'37.94"E, 60d45'31.13"N)
+Band 1 Block=2560x1 Type=Byte, ColorInterp=Red
+  Mask Flags: PER_DATASET ALPHA 
+Band 2 Block=2560x1 Type=Byte, ColorInterp=Green
+  Mask Flags: PER_DATASET ALPHA 
+Band 3 Block=2560x1 Type=Byte, ColorInterp=Blue
+  Mask Flags: PER_DATASET ALPHA 
+Band 4 Block=2560x1 Type=Byte, ColorInterp=Alpha

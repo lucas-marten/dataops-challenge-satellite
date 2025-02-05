@@ -1,0 +1,52 @@
+{
+    "projection": {
+        "bessel": [
+            "6377397.155",
+            "299.1528128"
+        ],
+        "Greenwich": [
+            "0"
+        ],
+        "EPSG": [
+            "9122"
+        ],
+        "Polar_Stereographic": [],
+        "latitude_of_origin": [
+            "60"
+        ],
+        "central_meridian": [
+            "14"
+        ],
+        "false_easting": [
+            "0"
+        ],
+        "false_northing": [
+            "0"
+        ],
+        "metre": [
+            "1"
+        ],
+        "Easting": [
+            "SOUTH"
+        ],
+        "Northing": [
+            "SOUTH"
+        ]
+    },
+    "shape": "(4, 2560, 2088)",
+    "drivers": "Drivers: (GTiff, GeoTIFF)",
+    "metadata": [
+        "TIFFTAG_DATETIME: 2025:01:20 12:19:01",
+        "AREA_OR_POINT: Area"
+    ],
+    "geotransform": {
+        "top_left_x": -1668854.126638295,
+        "w_e_pixel_resolution": 1151.5625,
+        "rotation_1": 0.0,
+        "top_left_y": -2062234.8425892727,
+        "rotation_2": 0.0,
+        "n_s_pixel_resolution": -1000.0
+    },
+    "value_min": "0.0",
+    "value_max": "255.0"
+}
