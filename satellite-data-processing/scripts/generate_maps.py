@@ -1,5 +1,6 @@
 #!venv/bin/python3
 import argparse
+import os
 import xarray as xr
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
@@ -18,6 +19,8 @@ if __name__ == "__main__":
     args = get_argparser()
     input_file = args.input_file
     output_file = args.output_file
+
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     if not input_file or not output_file:
         print("Input file is required")
