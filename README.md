@@ -40,6 +40,7 @@ This workflow covers:
 - [Image Representations](satellite-data-processing/docs/images_representations.md)
 - [Merged Files](satellite-data-processing/docs/merged_files.md)
 - [Reprojected Images](satellite-data-processing/docs/reproject_images.md)
+- [Weather insights](satellite-data-processing/notebooks/weather_insights.ipynb)
 
 
 ### Installing Dependencies
