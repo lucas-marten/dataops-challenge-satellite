@@ -6,7 +6,7 @@
 - **Coverage Area:** Africa, Europe, parts of the Americas, Asia, and the Atlantic and Pacific Oceans  
 - **Satellite:** Meteosat-10  
 - **Bands:** 1  
-- **Possible Representation:** Reflectance  
+- **Possible Channel:** Visible  
 
 ## File 2 - Himawari-9
 
@@ -14,7 +14,7 @@
 - **Coverage Area:** Pacific Ocean, Asia, and Australia  
 - **Satellite:** Himawari-9  
 - **Bands:** 1  
-- **Possible Representation:** Reflectance  
+- **Possible Channel:** Visible  
 
 ## File 3 - GOES-EAST
 
@@ -22,7 +22,7 @@
 - **Coverage Area:** The Americas  
 - **Satellite:** GOES-EAST  
 - **Bands:** 1  
-- **Possible Representation:** Reflectance  
+- **Possible Channel:** Water vapor  
 
 ## File 4 - MODIS/VIIRS
 

@@ -9,12 +9,12 @@ This project addresses a challenge centered around satellite data processing. Th
 │── 📂 data/                         # Original satellite data files
 │── 📂 processed_data/               # Processed files (reprojected, merged, etc.)
 │── 📂 notebooks/                    # Jupyter Notebooks for exploratory analysis
+│   ├── weather_insights.py          # Extract weather-related insights
 │── 📂 scripts/                      # Python scripts for processing
 │   ├── extract_metadata.py          # Extract metadata from files
 │   ├── reproject.py                 # Reproject images to a common system
 │   ├── merge_data.py                # Merge compatible files
 │   ├── generate_maps.py             # Generate visualizations (heatmaps, etc.)
-│   ├── weather_insights.py          # Extract weather-related insights
 │── 📂 docs/                         # Documentation
 │   ├── description_of_the_files.md  # Overview of the dataset
 │   ├── images_representations.md    # Description of satellite images, their coverage, and representations  
