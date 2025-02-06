@@ -9,7 +9,7 @@ sudo apt install -y gdal-bin libgdal-dev python3-gdal
 
 gdalinfo --version
 
-python3 -m venv gdal-venv
+python3 -m venv venv
 
 source venv/bin/activate
 
