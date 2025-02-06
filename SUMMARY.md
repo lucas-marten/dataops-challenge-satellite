@@ -16,6 +16,4 @@ This project focused on processing and analyzing satellite data to extract meani
 #### **Results Achieved**  
 - Successfully processed and reprojected satellite images into a common coordinate system (EPSG:4326).  
 - Merged visible and water vapor bands to provide a comprehensive meteorological analysis.  
-- Extracted cloud and moisture patterns that highlight significant weather features, such as convective systems and circulation dynamics.  
-
-This project demonstrated the feasibility of satellite data processing for meteorological insights, with potential applications in weather monitoring and forecasting.
+- Extracted cloud and moisture patterns that highlight significant weather features, such as convective systems and circulation dynamics. 
