@@ -18,5 +18,16 @@ Merging multiple GeoTIFF files allows for seamless analysis across different dat
 ## Tools and Methods  
 - **Command Used:**  
   ```shell
-   python3 satellite-data-processing/scripts/merge_data.py --files satellite-data-processing/processed_data/tiffs/file1.epsg\:4326.tiff satellite-data-processing/processed_data/tiffs/file2.epsg\:4326.tiff satellite-data-processing/processed_data/tiffs/file3.epsg\:4326.tiff
+  python3 satellite-data-processing/scripts/merge_data.py \
+    --files \
+        satellite-data-processing/processed_data/tiffs/file1.epsg:4326.tiff \
+        satellite-data-processing/processed_data/tiffs/file2.epsg:4326.tiff \
+        satellite-data-processing/processed_data/tiffs/file3.epsg:4326.tiff \
+    --output_file satellite-data-processing/processed_data/tiffs/merged.epsg:4326.tiff
+
+  python3 satellite-data-processing/scripts/merge_data.py \
+    --files \
+        satellite-data-processing/processed_data/tiffs/file1.epsg:4326.tiff \
+        satellite-data-processing/processed_data/tiffs/file2.epsg:4326.tiff \
+    --output_file satellite-data-processing/processed_data/tiffs/merged_1_2.epsg:4326.tiff
   ``` 
