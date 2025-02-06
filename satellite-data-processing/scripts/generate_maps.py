@@ -1,3 +1,4 @@
+#!venv/bin/python3
 import argparse
 import xarray as xr
 import matplotlib.pyplot as plt
