@@ -1,5 +1,5 @@
 import argparse
-
+import os
 import rasterio
 import rasterio.merge
 
@@ -23,7 +23,11 @@ def get_argparser():
 
 if __name__ == "__main__":
     args = get_argparser()
-    output_file = args.output_file
+
+    if not args.files or not args.output_file:
+        print("Input and output file is required")
+        exit(1)
+
     files = [rasterio.open(p) for p in args.files]
 
     data, affine = utils.merge_files(files)
@@ -41,4 +45,6 @@ if __name__ == "__main__":
         }
     )
 
-    utils.write_file(output_file, data, metadata)
+    os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
+
+    utils.write_file(args.output_file, data, metadata)

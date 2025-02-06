@@ -26,7 +26,9 @@ if __name__ == "__main__":
     target_project = args.target_project
 
     if not input_file or not output_file:
-        print("Input file is required")
+        print("Input and output file is required")
         exit(1)
+
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
     utils.reproject_to_another_file(input_file, output_file, target=target_project)
